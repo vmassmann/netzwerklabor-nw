@@ -1,0 +1,52 @@
+conf t
+!
+hostname Switch1.1.2
+!
+username admin privilege 15 secret 0 ccna
+username instructor privilege 15 secret 0 instructor
+!
+line con 0
+login local
+exit
+!
+line vty 0 4
+no transport input
+no transport output
+exit
+line vty 5 15
+no transport input
+no transport output
+exit
+!
+! 
+banner motd #
+**********************************************************************
+***                                                                ***
+***        BBS OS Brinkstrasse   -   Bildungsgang IT-Berufe        ***
+***                                                                ***
+**********************************************************************
+***                                                                ***
+***            N W   T e s t   P l a n t   R 1 1 2   v1            ***
+***                                                                ***
+***       Test Plant 1   /   Testbed 1.1   /   Switch 1.1.2        ***
+***                                                                ***
+**********************************************************************
+***                                                                ***
+***  Hinweise:                                                     ***
+***                                                                ***
+***  1. Nutzung nur nach Einweisung durch den Fachlehrer !         ***
+***                                                                ***
+***  2. Konfigurationsdaten NICHT auf dem Switch speichern !       ***
+***                                                                ***
+**********************************************************************#
+!
+no banner login
+no banner config-save
+!
+banner exec ^C
+^C
+!
+! SDM default template
+sdm prefer dual-ipv4-and-ipv6 default
+!
+exit
