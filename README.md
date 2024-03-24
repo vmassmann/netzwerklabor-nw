@@ -64,15 +64,15 @@ copy run startup
   
 #### NW Test Plant R112 v1 - Test Plant 1
 * Router ISR 4321-SEC/K9
-* Switch 2960+24TC-L
+* Switch Catalyst 2960+24TC-L
   
 #### NW Test Plant R112 v1 - Test Plant 2
 * Router ISR 4331-SEC/K9
-* Switch 2960+TC-L
+* Switch Catalyst 2960+24TC-L
   
 #### NW Test Plant R112 v1 - Test Plant 3
 * Router ISR 2811-SEC/K9
-* Switch 2960+24TC-L
+* Switch Catalyst 2960+24TC-L
 
 
 # IS Infrastruktur
