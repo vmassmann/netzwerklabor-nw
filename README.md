@@ -55,24 +55,24 @@ copy run startup
 
 ### NW Test Plant R006 v1
 #### NW Test Plant R006 v1 - Test Plant 1
-* Router Cisco 2901-SEC/K9
-* Switch 2960
+* Router ISR 2901-SEC/K9
+* Switch Catalyst 2960+24TC-L
 
 
 ### NW Test Plant R112 v1
 * nutzbar in den IT Laboren R111 und R113
   
 #### NW Test Plant R112 v1 - Test Plant 1
-* Router 4321-SEC/K9
-* Switch 2960
+* Router ISR 4321-SEC/K9
+* Switch 2960+24TC-L
   
 #### NW Test Plant R112 v1 - Test Plant 2
-* Router 4331-SEC/K9
-* Switch 2960
+* Router ISR 4331-SEC/K9
+* Switch 2960+TC-L
   
 #### NW Test Plant R112 v1 - Test Plant 3
-* Router 2811-SEC/K9
-* Switch 2960
+* Router ISR 2811-SEC/K9
+* Switch 2960+24TC-L
 
 
 # IS Infrastruktur
